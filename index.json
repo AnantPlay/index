@@ -1,0 +1,71 @@
+{
+ "name": "AnantPlay index",
+ "sources": [
+  {
+   "id": "sites",
+   "name": "Streaming sites",
+   "description": "Sites by category and language, from FREE-MEDIA lists, updated every 12 hours",
+   "type": "sites",
+   "url": "https://raw.githubusercontent.com/AnantPlay/scraper/main/sites.json",
+   "default": true
+  },
+  {
+   "id": "iptv-org",
+   "name": "Free TV channels",
+   "description": "Public channels from iptv-org, by category, country and language",
+   "type": "playlist",
+   "url": "https://iptv-org.github.io/iptv/index.m3u",
+   "languages": "https://iptv-org.github.io/iptv/index.language.m3u",
+   "default": true
+  },
+  {
+   "id": "title-links",
+   "name": "Title links",
+   "description": "Opens a movie, series or episode on its own page on supported sites",
+   "type": "deeplinks",
+   "url": "https://raw.githubusercontent.com/AnantPlay/sources/main/deeplinks.json",
+   "default": true
+  },
+  {
+   "id": "verified",
+   "name": "Verified",
+   "description": "Adult channels checked to play",
+   "type": "playlist",
+   "url": "https://raw.githubusercontent.com/AnantPlay/sources/main/lists/verified.m3u",
+   "adult": true,
+   "default": true
+  },
+  {
+   "id": "adultiptv",
+   "name": "adultiptv.net",
+   "type": "playlist",
+   "url": "https://raw.githubusercontent.com/AnantPlay/sources/main/lists/adultiptv.m3u",
+   "adult": true,
+   "default": true
+  },
+  {
+   "id": "izanami",
+   "name": "Izanami",
+   "type": "playlist",
+   "url": "https://raw.githubusercontent.com/AnantPlay/sources/main/lists/izanami.m3u",
+   "adult": true,
+   "default": true
+  },
+  {
+   "id": "adihashbcc",
+   "name": "AdihashBCC",
+   "type": "playlist",
+   "url": "https://raw.githubusercontent.com/AnantPlay/sources/main/lists/adihashbcc.m3u",
+   "adult": true,
+   "default": true
+  },
+  {
+   "id": "6j9",
+   "name": "6j9",
+   "type": "playlist",
+   "url": "https://raw.githubusercontent.com/AnantPlay/sources/main/lists/6j9.m3u",
+   "adult": true,
+   "default": true
+  }
+ ]
+}
